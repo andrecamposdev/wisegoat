@@ -1,0 +1,56 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-size: 14px;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+body {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.wrapper{
+    display: flex;
+    align-items: center;
+    width: 60%;
+    height: 100vh;
+    justify-content: center;
+}
+
+.title{
+    display: flex;
+    align-items: flex-start;
+    width: 50%;
+    flex-direction: column;
+}
+
+h3 {
+    font-size: 3rem;
+    color: #BAA193;
+}
+
+h1{
+    font-size: 6rem;
+    color: #72005F;
+}
+
+a {
+    background-color: #72005F;
+    color: white;
+    border-radius: 20px;
+    padding: 15px 50px;
+    font-size: 30px;
+}
+
+.goat{
+    display: flex;
+    justify-content: center;
+    width: 50%;
+}
+.goat img{
+    height: 50vh;
+}
