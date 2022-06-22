@@ -52,6 +52,17 @@ a {
 }
 .goat img{
     height: 50vh;
+    animation: levitate 1s infinite alternate
+}
+
+@keyframes levitate {
+    from{
+        transform: translateY(0px);
+    }
+    to {
+        transform: translateY(-25px);
+    }
+    
 }
 
 @media (max-width: 1024px) {
@@ -59,6 +70,6 @@ a {
         flex-direction: column;
     }
     .goat{
-        padding: 20px;
+        padding: 30px;
     }
 }

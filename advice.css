@@ -65,5 +65,16 @@ h1{
 .advice img{
     height: 300px; 
     width: 300px;
-    padding: 20px;
+    padding: 30px;
+    animation: levitate 1s infinite alternate
+}
+
+@keyframes levitate {
+    from{
+        transform: translateY(10px);
+    }
+    to {
+        transform: translateY(-10px);
+    }
+    
 }
