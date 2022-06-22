@@ -33,7 +33,7 @@ h1{
 
 .text h2{
     color: #72005F;
-    font-size: 25px;
+    font-size: 30px;
     padding: 50px;
     font-weight: 850;
 }
@@ -52,12 +52,18 @@ h1{
 .title{
     position: fixed;
     top: 20px;
-    left: 20px;
+    left: 40px;
 }
 
 .advice{
     display: flex;
     align-items: center;
     background-color: rgb(235, 228, 224);
-    max-width: 500px;
+    max-width: 600px;
+}
+
+.advice img{
+    height: 300px; 
+    width: 300px;
+    padding: 20px;
 }

@@ -16,9 +16,8 @@ body {
 .wrapper{
     display: flex;
     align-items: center;
-    width: 60%;
-    height: 100vh;
-    justify-content: center;
+    width: 50%;
+    height: 100vh;  
 }
 
 .title{
@@ -53,4 +52,13 @@ a {
 }
 .goat img{
     height: 50vh;
+}
+
+@media (max-width: 1024px) {
+    .wrapper{
+        flex-direction: column;
+    }
+    .goat{
+        padding: 20px;
+    }
 }
